@@ -1,0 +1,164 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+    padding: 1% 15% 7%;
+    padding-top: -2px;
+}
+#title h1{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    margin-top: 120px;
+}
+
+
+/* Navbar Section */
+.navbar {
+padding-bottom: 0 0 4.5rem;
+margin-top: -22px;
+}
+
+.navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+    padding: 84px;
+}
+
+#title .navbar-brand{
+    font-family: 'Baloo Chettan 2', cursive;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Baloo Chettan 2', cursive;
+}
+#title ul li a{
+    color: black;
+}
+#title ul li a:hover{
+    color: white;
+}
+
+/* Button Section */
+.btn{
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.image{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    margin: 45px;
+    margin-top: 150px;
+    
+}
+
+/* Features Section */
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+  
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+h3{
+    font-family: 'Baloo Chettan 2', cursive;
+}
+p{
+    color: gray;
+}
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+
+/* Testimonial Section */
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+#testimonials h2{
+    font-family: 'Baloo Chettan 2', cursive;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+.carousel-item{
+    padding: 7% 15%;
+    
+}
+.testimonial-image{
+    width: 20%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 25%;
+    padding: 38px;
+}
+
+/* Pricing Section */
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+
+/* Section cta */
+#cta{
+    background-color: #ff4c68;
+    color: white;
+    padding: 7% 15%;
+    text-align: center;
+    
+}
+#cta h3{
+    font-family:'Baloo Chettan 2', cursive;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* Footer */
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+.social-icon{
+    margin: 20px 10px;
+}
+
+/* Media Query */
+@media (max-width: 990px){
+    .image{
+        position: static;
+        transform: rotate(0deg);
+    }
+    #title{
+        text-align: center;
+    }
+}
+
